@@ -1,0 +1,113 @@
+body{
+  margin: 10px auto;
+}
+
+.container-1{
+  height: 350px;
+  width: 50%;
+  padding-left: 10px;
+  text-align: center;
+  
+}
+
+.image-1{
+  float: left;
+  width: 25%;
+  height: 90%;
+  text-align: center;
+  background-color: rgb(124, 88, 157);
+  
+}
+
+.text-1{
+  float: right;
+  width: 75%;
+  height: 10%;
+  text-align: center;
+  background-color: rgb(194, 82, 82);
+}
+
+.image-2{
+  float: left;
+  width: 50%;
+  height: 80%;
+  background-color: greenyellow;
+}
+
+.text-2{
+  float: right;
+  width: 25%;
+  height: 90%;
+  background-color: rgb(158, 158, 43);
+}
+
+.text-3{
+  float: left;
+  width: 75%;
+  height: 10%;
+  background-color: orange;
+}
+
+.container-2{
+  display:flex;
+  flex-direction: column;
+  height: 350px;
+  width: 50%;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+header{
+  display: flex;
+}
+
+.image-12{
+  flex: 1;
+  height: 35px;
+  background-color: rgb(124, 88, 157);
+}
+
+.text-12{
+  flex: 3;
+  height: 35px;
+  background-color: rgb(194, 82, 82);
+}
+
+main{
+  display: flex;
+}
+
+.image-122{
+  flex: 1;
+  height: 280px;
+  background-color: rgb(124, 88, 157);
+}
+
+.image-22{
+  flex: 2;
+  height: 280px;
+  background-color: greenyellow;
+}
+
+.text-22{
+  flex: 1;
+  height: 280px;
+  background-color: rgb(158, 158, 43);
+}
+
+footer{
+  display: flex;
+}
+
+.text-32{
+  flex: 3;
+  height: 35px;
+  background-color: orange;
+}
+
+.text-222{
+  flex: 1;
+  height: 35px;
+  background-color: rgb(158, 158, 43);
+}
